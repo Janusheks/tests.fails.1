@@ -1,2 +1,7 @@
-# tests.fails.1
-Testesanas fails programmesanas stundam.
+echo "# tests.fails.1 " >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/marisdanne/tests.fails.1.git
+git push -u origin master
